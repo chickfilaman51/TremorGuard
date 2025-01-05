@@ -23,9 +23,9 @@ export const features = [
   {
     id: "feature-1",
     icon: star,
-    title: "Rewards",
+    title: "Gyrotechnology",
     content:
-      "The best credit cards offer some tantalizing combinations of promotions and prizes",
+      "Uses",
   },
   {
     id: "feature-2",
