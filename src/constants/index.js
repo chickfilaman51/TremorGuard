@@ -25,21 +25,21 @@ export const features = [
     icon: star,
     title: "Gyrotechnology",
     content:
-      "Uses",
+      "Uses a spinning gyroscope to stabilize the hand through angular momentum.",
   },
   {
     id: "feature-2",
     icon: shield,
-    title: "100% Secured",
+    title: "Electrodes",
     content:
-      "We take proactive steps make sure your information and transactions are secure.",
+      "Controlled electrodes using gyrosensors ensure that tremors are fully controlled when they became extreme",
   },
   {
     id: "feature-3",
     icon: send,
-    title: "Balance Transfer",
+    title: "Affordable Materials",
     content:
-      "A balance transfer credit card can save you a lot of money in interest charges.",
+      "The design of he glove is made from 3D-Printed materials to ensure that it is affordable for everyone.",
   },
 ];
 

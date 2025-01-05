@@ -1,6 +1,6 @@
 import { useState } from "react";
 
-import { close, logo, menu } from "../assets";
+import { close, logo, menu, tremorguard } from "../assets";
 import { navLinks } from "../constants";
 
 const Navbar = () => {
@@ -8,8 +8,8 @@ const Navbar = () => {
   const [toggle, setToggle] = useState(false);
 
   return (
-    <nav className="w-full flex py-6 justify-between items-center navbar">
-      <img src={logo} alt="hoobank" className="w-[124px] h-[32px]" />
+    <nav className="w-[75%] py-4 px-10 flex justify-between items-center navbar fixed top-12 left-1/2 transform -translate-x-1/2 z-50 bg-gradient-to-r from-black/60 to-transparent rounded-xl shadow-xl">
+      <img src={tremorguard} alt="hoobank" className="w-[200px] h-[65px]" />
 
       <ul className="list-none sm:flex hidden justify-end items-center flex-1">
         {navLinks.map((nav, index) => (
