@@ -23,7 +23,7 @@ import twitter from "./twitter.svg";
 import people01 from "./people01.png";
 import people02 from "./people02.png";
 import people03 from "./people03.png";
-import tremorguard from "./TremorGuard.png"; 
+import tremorguard from "./Tremorguard.png"; 
 import happy from "./happyparkinsons.jpg"
 import cost from "./cost.jpg"
 import hands from "./hands.jpg"
