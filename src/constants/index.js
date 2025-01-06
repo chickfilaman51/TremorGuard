@@ -47,7 +47,7 @@ export const feedback = [
   {
     id: "feedback-1",
     content:
-      "Money is only a tool. It will take you wherever you wish, but it will not replace you as the driver.",
+      "Krish is a student at the Academies of Science and Rock Ridge High School. He loves programming and machine learning applications in medical technology. In his free time, he enjoys reading books and eating Chick Fil A.",
     name: "Krish Behera",
     title: "Co-Founder",
     img: people01,
@@ -56,7 +56,7 @@ export const feedback = [
   {
     id: "feedback-3",
     content:
-      "It is usually people in the money business, finance, and international trade that are really rich.",
+      "he is a guy who like tomatoes and is a student at the Aceeeand eating Chick Fil A.d eating Chick Fil A.d eating Chick Fil A.d eating Chick Fil A.",
     name: "Mihir Nimkar",
     title: "Co-Founder",
     img: people03,
