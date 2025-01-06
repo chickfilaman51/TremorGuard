@@ -1,14 +1,39 @@
-import { useState } from "react";
+import { useState, useEffect } from "react";
 
-import { close, logo, menu, tremorguard } from "../assets";
+import { close, menu, tremorguard } from "../assets";
 import { navLinks } from "../constants";
 
 const Navbar = () => {
   const [active, setActive] = useState("Home");
   const [toggle, setToggle] = useState(false);
+  const [showNavbar, setShowNavbar] = useState(true);  // State to track navbar visibility
+  const [lastScrollY, setLastScrollY] = useState(0);   // Track the last scroll position
+
+  useEffect(() => {
+    const handleScroll = () => {
+      if (window.scrollY < lastScrollY) {
+        // Scrolling up
+        setShowNavbar(true);
+      } else if (window.scrollY > lastScrollY && window.scrollY > 100) {
+        // Scrolling down
+        setShowNavbar(false);
+      }
+      setLastScrollY(window.scrollY); // Update the last scroll position
+    };
+
+    window.addEventListener("scroll", handleScroll);
+
+    return () => {
+      window.removeEventListener("scroll", handleScroll);
+    };
+  }, [lastScrollY]);
 
   return (
-    <nav className="w-[75%] py-4 px-10 flex justify-between items-center navbar fixed top-12 left-1/2 transform -translate-x-1/2 z-50 bg-gradient-to-r from-black/60 to-transparent rounded-xl shadow-xl">
+    <nav
+      className={`w-[75%] py-4 px-10 flex justify-between items-center navbar fixed top-12 left-1/2 transform -translate-x-1/2 z-50 bg-black/40 backdrop-blur-lg rounded-xl shadow-xl transition-all duration-300 ${
+        showNavbar ? "top-12" : "-top-24"  // Show or hide navbar based on scroll
+      }`}
+    >
       <img src={tremorguard} alt="hoobank" className="w-[200px] h-[65px]" />
 
       <ul className="list-none sm:flex hidden justify-end items-center flex-1">

@@ -28,7 +28,7 @@ const Business = () =>  (
         TremorGuard is the most affordable and reliable hand stabilizer glove for Parkinson's patients. It uses improved gyrotechnology with affordable 3D-Printed materials along with controlled electrodes to ensure that tremors never get in the way of daily tasks.
       </p>
 
-      <Button styles={`mt-10`} />
+  
     </div>
 
     <div className={`${layout.sectionImg} flex-col`}>
