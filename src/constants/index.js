@@ -47,7 +47,7 @@ export const feedback = [
   {
     id: "feedback-1",
     content:
-      "Krish is a student at the Academies of Science and Rock Ridge High School. He loves programming and machine learning applications in medical technology. In his free time, he enjoys reading books and eating Chick Fil A.",
+      "Krish is a student at the Academies of Science and Rock Ridge High School. He loves programming and machine learning applications in medical technology. In his free time, he plays the piano, reads fantasy novels.",
     name: "Krish Behera",
     title: "Co-Founder",
     img: people01,
@@ -56,7 +56,7 @@ export const feedback = [
   {
     id: "feedback-3",
     content:
-      "he is a guy who like tomatoes and is a student at the Aceeeand eating Chick Fil A.d eating Chick Fil A.d eating Chick Fil A.d eating Chick Fil A.",
+      "Mihir is a student at the Academies of Science and Rock Ridge High School. He loves biology, chemistry, and neuroscience. He also plays the guitar and makes art in his free time.",
     name: "Mihir Nimkar",
     title: "Co-Founder",
     img: people03,
