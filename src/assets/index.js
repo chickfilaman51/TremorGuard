@@ -27,6 +27,7 @@ import tremorguard from "./Tremorguard.png";
 import happy from "./happyparkinsons.jpg"
 import cost from "./cost.jpg"
 import hands from "./hands.jpg"
+import prototype from "./prototype.png"
 
 export {
   airbnb,
@@ -58,4 +59,5 @@ export {
   happy,
   cost,
   hands,
+  prototype,
 };
