@@ -1,4 +1,4 @@
-import { people01, people02, people03, facebook, instagram, linkedin, twitter, airbnb, binance, coinbase, dropbox, send, shield, star  } from "../assets";
+import { people01, people02, people03, krish, mihir, facebook, instagram, linkedin, twitter, airbnb, binance, coinbase, dropbox, send, shield, star  } from "../assets";
 
 export const navLinks = [
   {
@@ -44,22 +44,23 @@ export const features = [
 ];
 
 export const feedback = [
-  {
-    id: "feedback-1",
-    content:
-      "Mihir is a student at the Academy of Science and Rock Ridge High School. He enjoys learning about medical developments and technology. In his free time, he enjoys playing guitar and drawing",
-    name: "Mihir Nimkar",
-    title: "Co-Founder",
-    img: people01,
-  },
+  
 
   {
-    id: "feedback-3",
+    id: "feedback-1",
     content:
       "Krish is a student at the Academies of Science and Rock Ridge High School. He loves programming and machine learning applications in medical technology. In his free time, he enjoys reading books and eating Chick Fil A.",
     name: "Krish Behera",
     title: "Co-Founder",
-    img: people03,
+    img: krish,
+  },
+  {
+    id: "feedback-3",
+    content:
+      "Mihir is a student at the Academy of Science and Rock Ridge High School. He enjoys learning about medical developments and technology. In his free time, he enjoys playing guitar and drawing",
+    name: "Mihir Nimkar",
+    title: "Co-Founder",
+    img: mihir,
   },
 ];
 

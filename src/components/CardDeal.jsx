@@ -1,7 +1,7 @@
 import { card,prototype } from "../assets";
 import styles, { layout } from "../style";
 import Button from "./Button";
-
+import React from 'react';
 const CardDeal = () => (
   <section className={layout.section}>
     <div className={layout.sectionInfo}>
@@ -22,3 +22,5 @@ const CardDeal = () => (
 );
 
 export default CardDeal;
+
+

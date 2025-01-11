@@ -28,6 +28,9 @@ import happy from "./happyparkinsons.jpg"
 import cost from "./cost.jpg"
 import hands from "./hands.jpg"
 import prototype from "./prototype.png"
+import model from "./TremorGuard.glb"
+import krish from "./krish.jpg"
+import mihir from "./mihir.jpg"
 
 export {
   airbnb,
@@ -60,4 +63,7 @@ export {
   cost,
   hands,
   prototype,
+  model,
+  krish,
+  mihir,
 };

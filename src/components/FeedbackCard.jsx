@@ -1,3 +1,5 @@
+import React from 'react';
+
 const FeedbackCard = ({ content, name, title, img }) => (
   <div className="flex flex-col items-center justify-center px-10 py-12 rounded-[20px] max-w-[400px] md:mr-10 sm:mr-5 mr-0 my-5 feedback-card bg-primary">
     {/* Image */}

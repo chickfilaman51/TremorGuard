@@ -1,5 +1,5 @@
 import { useState, useEffect } from "react";
-
+import React from 'react';
 import { close, menu, tremorguard } from "../assets";
 import { navLinks } from "../constants";
 

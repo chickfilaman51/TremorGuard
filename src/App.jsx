@@ -1,6 +1,6 @@
 import styles from "./style";
 import { Billing, Business, CardDeal, Clients, CTA, Footer, Navbar, Stats, Testimonials, Hero, Impact } from "./components";
-
+import React from 'react';
 const App = () => (
   <div className="bg-primary w-full">
     <div className={`${styles.paddingX} ${styles.flexCenter}`}>
