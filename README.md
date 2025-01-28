@@ -1,12 +1,43 @@
-# HooBank - Modern UI/UX website using React.js & Tailwind CSS
+# 🌿 TremorGuard: The First Low-Cost, Eco-Friendly Hand Stabilizer Glove! 🌿
 
-![HooBank](https://i.ibb.co/BK1Hn0x/Screenshot-2022-08-08-at-4-05-48-PM.png)
+Welcome to the **TremorGuard** repo — the home of an innovative, affordable, and eco-friendly solution to stabilize parkinsonian hand tremors. This project is built to empower individuals with tremors to regain control of their daily activities in a sustainable way.
 
-### [🌟 Become a top 1% Next.js 13 developer in only one course](https://jsmastery.pro/next13)
-### [🚀 Land your dream programming job in 6 months](https://jsmastery.pro/masterclass)
+---
 
-### Showcase your dev skills with practical experience and land the coding career of your dreams
-💻 JS Mastery Pro - https://jsmastery.pro/youtube
-✅ A special YOUTUBE discount code is automatically applied!
+## 🚀 Website Overview
+This repocontains the **official website** for **TremorGuard**, designed to:
+- Showcase the features and benefits of the glove.
+- Educate users about how TremorGuard can improve their quality of life.
+- Provide a platform for users to learn more, and contact the team: Krish and Mihir!
 
-📙 Get the Ultimate Frontend & Backend Development Roadmaps, a Complete JavaScript Cheatsheet, Portfolio Tips, and more - https://www.jsmastery.pro/links
+---
+
+## 🌟 Key Features of TremorGuard
+- **Low-Cost:** Accessible pricing for everyone who needs it.  
+- **Eco-Friendly:** Made from sustainable materials, reducing environmental impact.  
+- **Hand Stabilization:** Minimizes hand tremors, enabling users to write, eat, and carry out tasks with confidence.  
+
+---
+
+
+---
+
+## 📬 Contact Us
+If you have any questions or feedback, feel free to reach out!
+
+📧 **Email:** [tremorguard@gmail.com](mailto:tremorguard@gmail.com)  
+🌐 **Website:** [www.tremorguard.netlify.app](www.tremorguard.netlify.app)  
+
+---
+
+## ❤️ Contribute
+We welcome contributions to improve the TremorGuard website! Feel free to fork the repository, submit issues, or open pull requests.
+
+---
+
+## 📜 License
+This project is licensed under the [MIT License](LICENSE). Feel free to use, modify, and distribute the code as per the terms of the license.
+
+---
+
+Thank you for supporting **TremorGuard** and being a part of our journey toward affordable, sustainable hand stabilization solutions! 🌍
